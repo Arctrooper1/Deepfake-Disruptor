@@ -304,7 +304,7 @@ app.post("/api/analyze", async (req, res) => {
       config: {
         responseMimeType: "application/json",
         responseSchema,
-        systemInstruction: "You are the primary engine of the DeepFake Disruptor (Media Forensic Investigation Suite). Output JSON reports strictly conforming to the schema.",
+        systemInstruction: "You are the primary engine of the Deepfake detector (Media Forensic Investigation Suite). Output JSON reports strictly conforming to the schema.",
       },
     });
 
@@ -684,7 +684,7 @@ async function startServer() {
   }
 
   app.listen(PORT, "0.0.0.0", () => {
-    console.log(`DeepFake Disruptor core server running on port ${PORT}`);
+    console.log(`Deepfake detector core server running on port ${PORT}`);
   });
 }
 

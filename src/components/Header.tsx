@@ -11,7 +11,7 @@ export default function Header() {
           </div>
           <div>
             <h1 className="text-2xl font-bold tracking-tight text-white flex items-center gap-2">
-              DeepFake <span className="text-cyan-400 bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/20 text-lg uppercase font-mono tracking-widest">Disruptor</span>
+              Deepfake <span className="text-cyan-400 bg-cyan-950/40 px-2 py-0.5 rounded border border-cyan-500/20 text-lg uppercase font-mono tracking-widest">detector</span>
             </h1>
             <p className="text-xs text-slate-400 font-mono">
               Forensic Intelligence Laboratory // SECURE-MEDIA WORKSPACE

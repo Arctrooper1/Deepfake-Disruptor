@@ -65,7 +65,7 @@ export default function App() {
   // Initial greeting logs
   useEffect(() => {
     setForensicLogs([]);
-    addLog("DEEPFAKE DISRUPTOR CORE SUBSYSTEM INITIALIZED.");
+    addLog("DEEPFAKE DETECTOR CORE SUBSYSTEM INITIALIZED.");
     addLog("READY - UPLOAD IMAGE TO INSTANTIATE COMPRESSION COMPASS.");
     addLog("FORENSIC INTELLIGENCE LENS // DISCOVER • DISRUPT • DISPLAY ACTIVE.");
   }, []);
@@ -197,7 +197,7 @@ export default function App() {
     setApiError("");
     setElaError("");
     setForensicLogs([]);
-    addLog("DEEPFAKE DISRUPTOR CORE WORKSPACE CLEARED.");
+    addLog("DEEPFAKE DETECTOR CORE WORKSPACE CLEARED.");
     addLog("READY FOR NEW CANDIDATE INPUT VECTOR.");
   };
 
@@ -231,8 +231,8 @@ export default function App() {
             }`}
             id="neutral-ground-tab-btn"
           >
-            <ShieldAlert className="w-4 h-4" />
-            AI Security Intel
+            <ShieldCheck className="w-4 h-4" />
+            Prevention Guides
           </button>
         </div>
 
@@ -253,7 +253,7 @@ export default function App() {
                     Reveal the Invisible In Real-Time
                   </h1>
                   <p className="text-slate-400 text-sm md:text-base leading-relaxed">
-                    By combining localized <strong className="text-cyan-400 font-mono">Error Level Analysis (ELA)</strong> and state-of-the-art vision LLM auditing, DeepFake Disruptor empowers everyday citizens to detect AI generation, neural face-swaps, and professional digital manipulations in seconds.
+                    By combining localized <strong className="text-cyan-400 font-mono">Error Level Analysis (ELA)</strong> and state-of-the-art vision LLM auditing, Deepfake detector empowers everyday citizens to detect AI generation, neural face-swaps, and professional digital manipulations in seconds.
                   </p>
                   <div className="flex flex-wrap gap-4 text-xs font-mono text-slate-500 pt-2">
                     <span className="flex items-center gap-1"><Binary className="w-4 h-4 text-cyan-500" /> HTML5 Compression audit</span>
@@ -744,7 +744,7 @@ export default function App() {
       {/* Platform Footer */}
       <footer className="mt-auto border-t border-slate-800/80 bg-slate-950/30 px-6 py-4 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-mono">
         <p className="text-slate-500 text-center md:text-left">
-          &copy; 2026 DeepFake Disruptor // Secure Forensics Suite
+          &copy; 2026 Deepfake detector // Secure Forensics Suite
         </p>
         <div className="flex gap-3">
           <span className="text-[10px] text-slate-400">Theme: Discover, Disrupt, Display</span>
