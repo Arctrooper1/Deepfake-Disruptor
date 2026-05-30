@@ -1,0 +1,6 @@
+{
+  "name": "DeepFake Disruptor",
+  "description": "Forensic media analysis platform identifying AI-generated content and digital manipulations using real-time Error Level Analysis (ELA) and Gemini vision auditing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
